@@ -14,3 +14,5 @@ Waveshare Environmental Sensor Board on Jetson Nano 2GB - Apache Pulsar - Python
 * https://www.influxdata.com/blog/nvidia-jetson-series-part-1-jetson-stats/
 * https://github.com/rbonghi/jetson_stats
 * https://github.com/tspannhw/FutureFLiPNS
+* https://github.com/makepluscode/jetson-stats-zeromq
+* https://github.com/Jayclifford345/demo_telegraf_jetson_stats
