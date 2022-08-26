@@ -16,3 +16,6 @@ Waveshare Environmental Sensor Board on Jetson Nano 2GB - Apache Pulsar - Python
 * https://github.com/tspannhw/FutureFLiPNS
 * https://github.com/makepluscode/jetson-stats-zeromq
 * https://github.com/Jayclifford345/demo_telegraf_jetson_stats
+* https://www.waveshare.com/environment-sensor-for-jetson-nano.htm
+* https://www.waveshare.com/wiki/Environment_Sensor_for_Jetson_Nano
+* https://www.datainmotion.dev/2020/10/flank-streaming-edgeai-on-new-nvidia.html
