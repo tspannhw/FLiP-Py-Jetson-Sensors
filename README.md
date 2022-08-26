@@ -2,6 +2,47 @@
 Waveshare Environmental Sensor Board on Jetson Nano 2GB - Apache Pulsar - Python 3.10 - Ubuntu 18.04
 
 
+
+
+### Pulsar Consume
+
+````
+bin/pulsar-client consume "persistent://public/default/jetsonsensors" -s jtsnr4 -n 0
+
+
+----- got message -----
+key:[nano_uuid_wio_20220826204650], properties:[], content:{
+ "uuid": "nano_uuid_wio_20220826204650",
+ "ipaddress": "192.168.1.217",
+ "cputempf": 81,
+ "gputempf": 81,
+ "runtime": 6,
+ "host": "nano2gb-desktop",
+ "hostname": "nano2gb-desktop",
+ "macaddress": "1c:bf:ce:1a:7f:a0",
+ "endtime": "1661546810.3255336",
+ "te": "5.542823791503906",
+ "cpu": 12.9,
+ "diskusage": "21372.4 MB",
+ "memory": 33.8,
+ "rowid": "20220826204650_3bed1e8a-9471-4aec-ada0-d04400d882ed",
+ "systemtime": "08/26/2022 16:46:50",
+ "ts": 1661546810,
+ "starttime": "1661546804.7827098",
+ "datetimestamp": null,
+ "temperature": 23.47,
+ "humidity": 56.73,
+ "uv": 0.03,
+ "ir": 259.0,
+ "pressure": 1008.05,
+ "jetsontime": "08/26/2022",
+ "uptime": "2 days, 1:30:45.580000",
+ "tempgpu": "27.0",
+ "tempcpu": "28.0"
+}
+````
+
+
 ### JSON Data
 
 ````
