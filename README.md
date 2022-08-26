@@ -1,7 +1,7 @@
 # FLiP-Py-Jetson-Sensors
 Waveshare Environmental Sensor Board on Jetson Nano 2GB - Apache Pulsar - Python 3.10 - Ubuntu 18.04
 
-
+![Jetson Nano](https://raw.githubusercontent.com/tspannhw/FLiP-Py-Jetson-Sensors/main/jetsonnano.png)
 
 
 ### Pulsar Consume
