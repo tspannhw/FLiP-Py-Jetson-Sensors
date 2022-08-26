@@ -60,3 +60,7 @@ key:[nano_uuid_wio_20220826204650], properties:[], content:{
 * https://www.waveshare.com/environment-sensor-for-jetson-nano.htm
 * https://www.waveshare.com/wiki/Environment_Sensor_for_Jetson_Nano
 * https://www.datainmotion.dev/2020/10/flank-streaming-edgeai-on-new-nvidia.html
+
+
+
+![Jetson Nano](https://raw.githubusercontent.com/tspannhw/FLiP-Py-Jetson-Sensors/main/IMG-2099.JPG)
