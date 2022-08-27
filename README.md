@@ -4,6 +4,31 @@ Waveshare Environmental Sensor Board on Jetson Nano 2GB - Apache Pulsar - Python
 ![Jetson Nano](https://raw.githubusercontent.com/tspannhw/FLiP-Py-Jetson-Sensors/main/jetsonnano.png)
 
 
+### Upgrade
+
+````
+Let's get Python 3.10
+
+wget https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz
+tar -xvf Python-3.10.6.tgz
+cd Python-3.10.6
+./configure --enable-optimizations
+make -j $(nproc)
+sudo -H make altinstall
+/usr/local/bin/python3.10
+/usr/local/bin/pip3.10 install --upgrade pip
+apt-get install python3-smbus
+apt-get install python3-pil
+apt-get install i2c-tools
+wget https://www.waveshare.com/w/upload/a/a2/Environment_sensor_fot_jetson_nano.7z
+/usr/local/bin/pip3.10 install pulsar-client
+pip3.10 install pillow
+cat /etc/os-release
+htop
+jtop
+pip3.10 install -U jetson-stats
+````
+
 ### Pulsar Consume
 
 ````
