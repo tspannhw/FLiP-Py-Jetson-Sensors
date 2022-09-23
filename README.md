@@ -20,8 +20,8 @@ wget https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz
 
 tar -xvf Python-3.10.6.tgz
 cd Python-3.10.6
-./configure --enable-optimizations --with-openssl
-make -j $(nproc)
+./configure --enable-optimizations
+make -j $(nproc)  --with-openssl
 sudo -H make altinstall
 /usr/local/bin/python3.10
 /usr/local/bin/pip3.10 install --upgrade pip
